@@ -8,6 +8,8 @@ spring:
             client-secret: ${GOOGLE_CLIENT_SECRET}
   main:
     allow-circular-references: true
+  server:
+    port: ${SERVER_PORT}
 
   data:
     mongodb:
