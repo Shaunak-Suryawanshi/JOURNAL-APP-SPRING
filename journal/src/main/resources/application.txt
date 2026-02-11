@@ -1,0 +1,24 @@
+spring.data.mongodb.uri=mongodb+srv://shaunak436:emmanuel123@cluster0.igrxhvt.mongodb.net/?appName=Cluster0
+spring.data.mongodb.database=journaldb
+spring.data.mongodb.auto-index-creation=true
+weather.api.key=ec849122a324ca5e6edcd7fc4ec42a45
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=shaunak436@gmail.com
+spring.mail.password=roum wxbl szmb ssjw
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.data.redis.host= redis-14443.crce263.ap-south-1-1.ec2.cloud.redislabs.com
+spring.data.redis.port=14443
+spring.data.redis.password=aWFWBidJ15NibqROyQWcs2yMtIhv59sS
+
+# Required connection configs for Kafka producer, consumer, and admin
+spring.kafka.properties.sasl.mechanism=PLAIN
+spring.kafka.bootstrap-servers=pkc-l7pr2.ap-south-1.aws.confluent.cloud:9092
+spring.kafka.properties.sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule required username='XKN3TGJ56IFJXMYP' password='cfltyO0f+xRwMYDeaUnpI0tD1aeIPg8tvEETW5LC1wT7CCrpSNpKm5CzC5OkzXPw';
+spring.kafka.properties.security.protocol=SASL_SSL
+
+# Best practice for higher availability in Apache Kafka clients prior to 3.0
+spring.kafka.properties.session.timeout.ms=45000
+
+client.id=ccloud-springboot-client-1db5c95b-900a-4e2c-b88b-ede5832ea71f
